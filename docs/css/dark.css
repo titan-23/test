@@ -15,7 +15,7 @@
 
   /* コードブロックのスタイル */
   pre {
-    background-color: #515151; /* 背景色を灰色に設定 */
+    background-color: #f30c0c; /* 背景色を灰色に設定 */
     padding: 10px; /* 内部の余白を設定 */
     border-radius: 5px; /* 角丸にする */
   }

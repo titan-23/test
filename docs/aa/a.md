@@ -21,9 +21,8 @@
 - 区間 `[l, r)` に対するクエリを追加します。
 - `O(1)` です。
 
-#### `mo.run(add: Callable[[int], None], delete: Callable[[int], None], out: Callable[[int], None]) -> None`
-- 実行します。
-
-#### `mo.runrun(add_left: Callable[[int], None], add_right: Callable[[int], None], delete_left: Callable[[int], None], delete_right: Callable[[int], None], out: Callable[[int], None]) -> None`
-- 実行します。
-
+```python
+n = int(input())
+for _ in range(n):
+  pass
+```
