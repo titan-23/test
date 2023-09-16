@@ -14,12 +14,5 @@ _____
 
 _____
 
-## [Algorithm](Algorithm/Algorithm.md)
+## [Algorithm](./aa/a.md)
 
-### [Mo](Algorithm/Mo/Mo.md)
-
-### [Sort](Algorithm/Sort/Sort.md)
-- [merge_sort](Algorithm/Sort/merge_sort.md)
-- [quick_sort](Algorithm/Sort/quick_sort.md)
-
-### [Doubling](Algorithm/Doubling.md)
