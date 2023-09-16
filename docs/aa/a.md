@@ -1,21 +1,16 @@
 <link rel="stylesheet" type="text/css" href="../css/dark.css">
 
-_____
 
 # `Mo`
 
-_____
 
 ## コード
 
 [`Mo`](https://github.com/titanium-22/Library_py/blob/main/Algorithm/Mo/Mo.py)
 
-_____
-
 
 - 列に対する `Mo's algorithm` です。
 
-_____
 
 ## 仕様
 
