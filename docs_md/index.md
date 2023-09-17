@@ -1,12 +1,4 @@
-
-_____
-sfsdsffffffffsfsfsfs
-sfsfsfs
-
-
-
-sfsfsf
-
+<link rel="stylesheet" type="text/css" href="css/dark.css">
 
 # afafa
 
