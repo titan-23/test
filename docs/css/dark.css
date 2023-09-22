@@ -4,8 +4,6 @@ body {
   background-color: #1c2025; /* ダークモード時の背景色をダークグレーに設定 */
   color: #e6e6e6; /* ダークモード時のテキストカラーを白に設定 */
   line-height: 1.5;
-  min-height: 100vh; /* ビューポートの高さいっぱいに表示 */
-  /* display: flex; */
   justify-content: center; /* 水平方向に中央に配置 */
   align-items: center; /* 垂直方向に中央に配置 */
   margin: 0 5%; /* 左右のマージンを設定 */
@@ -31,11 +29,4 @@ pre {
   overflow-x: auto;
   font-family: Consolas;
   font-size: 16px;
-}
-
-/* スマートフォン用フォントサイズ */
-@media screen and (max-width: 767px) {
-  body {
-    font-size: 64px; /* スマートフォン用のフォントサイズを設定 */
-  }
 }
