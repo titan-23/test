@@ -5,8 +5,19 @@ body {
   color: #333; /* テキストカラーをダークグレーに設定 */
   line-height: 1.5;
   margin: 0;
-  min-width: 100vh; /* ビューポートの高さいっぱいに表示 */
+  min-height: 100vh; /* ビューポートの高さいっぱいに表示 */
+  display: flex;
   justify-content: center; /* 水平方向に中央に配置 */
+  align-items: center; /* 垂直方向に中央に配置 */
+}
+
+/* 外側の要素 */
+.container {
+  max-width: 960px; /* コンテンツの最大幅を設定 */
+  margin: 0 20px; /* 左右のマージンを設定 */
+  background-color: #fff; /* コンテンツの背景色を設定 */
+  padding: 20px; /* コンテンツの内側の余白を設定 */
+  border-radius: 5px; /* 角丸を設定 */
 }
 
 /* リンクのスタイル */
