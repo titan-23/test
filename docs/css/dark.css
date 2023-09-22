@@ -22,20 +22,10 @@ a:hover {
   text-decoration: underline; /* リンクにホバー時に下線を表示 */
 }
 
-/* ボタンのスタイル */
-.button {
-  background-color: #0078d4; /* ボタンの背景色を青に設定 */
-  color: #fff; /* ボタンのテキストカラーを白に設定 */
-  padding: 10px 20px;
-  border: none;
-  border-radius: 5px;
-  cursor: pointer;
-}
-
 /* ダークモードのスタイル */
 @media (prefers-color-scheme: dark) {
   body {
-    background-color: #333; /* ダークモード時の背景色をダークグレーに設定 */
+    background-color: #23282f; /* ダークモード時の背景色をダークグレーに設定 */
     color: #f5f5f5; /* ダークモード時のテキストカラーを白に設定 */
   }
 
@@ -49,7 +39,7 @@ a:hover {
 
   /* ダークモード時のボタンのスタイル */
   .button {
-    background-color: #0099ff;
+    background-color: #0051ff;
     color: #fff;
   }
 }
