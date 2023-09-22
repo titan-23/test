@@ -18,17 +18,21 @@ _____
 
 ### [Mo](Algorithm/Mo/Mo.md)
 
-### [Sort](Algorithm/Sort/Sort.md)
-- [merge_sort](Algorithm/Sort/merge_sort.md)
-- [quick_sort](Algorithm/Sort/quick_sort.md)
+```python
+import os
+from __pypy__.builders import StringBuilder
 
-### [Doubling](Algorithm/Doubling.md)
+class FastO():
 
-### [permutation](Algorithm/permutation.md)
+  sb = StringBuilder()
 
-_____
+  @classmethod
+  def write(cls, *args, sep: str=' ', end: str='\n', flush: bool=False) -> None:
+    append = cls.sb.append
+    for i in range(len(args)-1):
+      append(str(args[i]))
+      append(sep)
+    if args:
 
-## [DataStructures](DataStructures/DataStructures.md)
+```
 
-### [Array](DataStructures/Array/Array.md)
-- [PartialPersistentArray](DataStructures/Array/PartialPersistentArray.md)
