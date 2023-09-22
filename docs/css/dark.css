@@ -45,10 +45,27 @@ a:hover {
     font-family: Consolas;
   }
 
-  .copy-code-button {
-    border-radius: 0;
-    min-width: 55px;
-    background: none repeat scroll 0 0 transparent;
+  /* コピーボタンのスタイル */
+  .copy-button::before {
+    content: "Copy"; /* ボタンに表示するテキスト */
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 3px;
+    margin-left: 10px;
+    display: inline-block; /* インラインブロック要素として表示 */
   }
-  
+
+  /* コピーボタンにマウスがホバーしたときのスタイル */
+  .copy-button:hover::before {
+    background-color: #0056b3;
+  }
+
+  /* コピーボタンがクリックされたときのスタイル */
+  .copy-button:active::before {
+    background-color: #004199;
+  }
+
 }
