@@ -1,17 +1,15 @@
 /* 共通のスタイル */
 body {
   font-family: Arial, sans-serif;
-  background-color: #f5f5f5; /* 背景色を明るめのグレーに設定 */
-  color: #333; /* テキストカラーをダークグレーに設定 */
+  background-color: #1c2025; /* ダークモード時の背景色をダークグレーに設定 */
+  color: #e6e6e6; /* ダークモード時のテキストカラーを白に設定 */
   line-height: 1.5;
   min-height: 100vh; /* ビューポートの高さいっぱいに表示 */
   /* display: flex; */
   justify-content: center; /* 水平方向に中央に配置 */
   align-items: center; /* 垂直方向に中央に配置 */
-}
-
-body {
   margin: 0 5%; /* 左右のマージンを設定 */
+  font-size: 15px;
 }
 
 /* リンクのスタイル */
@@ -24,48 +22,12 @@ a:hover {
   text-decoration: underline; /* リンクにホバー時に下線を表示 */
 }
 
-/* ダークモードのスタイル */
-@media (prefers-color-scheme: dark) {
-  body {
-    background-color: #1c2025; /* ダークモード時の背景色をダークグレーに設定 */
-    color: #e6e6e6; /* ダークモード時のテキストカラーを白に設定 */
-  }
-  
-  a {
-    color: #1098d1; /* ダークモード時のリンクのカラーを明るい青に設定 */
-  }
-
-  pre {
-    padding: 1em; /* 内側の余白 */
-    margin: 0 0 1.5em; /* 外側の余白 */
-    background: #4a4a4a; /* 背景色 */
-    white-space: pre;
-    max-height: 30em;
-    overflow-x: auto;
-    font-family: Consolas;
-  }
-
-  /* コピーボタンのスタイル */
-  .copy-button::before {
-    content: "Copy"; /* ボタンに表示するテキスト */
-    background-color: #007BFF;
-    color: #fff;
-    border: none;
-    padding: 5px 10px;
-    cursor: pointer;
-    border-radius: 3px;
-    margin-left: 10px;
-    display: inline-block; /* インラインブロック要素として表示 */
-  }
-
-  /* コピーボタンにマウスがホバーしたときのスタイル */
-  .copy-button:hover::before {
-    background-color: #0056b3;
-  }
-
-  /* コピーボタンがクリックされたときのスタイル */
-  .copy-button:active::before {
-    background-color: #004199;
-  }
-
+pre {
+  padding: 1em; /* 内側の余白 */
+  margin: 0 0 1.5em; /* 外側の余白 */
+  background: #4a4a4a; /* 背景色 */
+  white-space: pre;
+  max-height: 30em;
+  overflow-x: auto;
+  font-family: Consolas;
 }
