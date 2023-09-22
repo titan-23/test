@@ -7,6 +7,7 @@
 
 
 <body>
+
 <hr>
 <h1 id="test"><a href="https://github.com/titanium-22/test">test</a></h1>
 <p><strong>2023/9/11 追記</strong></p>
@@ -18,22 +19,22 @@
 <hr>
 <h2 id="algorithm"><a href="Algorithm/Algorithm.md">Algorithm</a></h2>
 <h3 id="mo"><a href="Algorithm/Mo/Mo.md">Mo</a></h3>
-<pre class="hljs"><code>
-  import os
-  from __pypy__.builders import StringBuilder
+<pre class="hljs"><code><div><span class="hljs-keyword">import</span> os
+<span class="hljs-keyword">from</span> __pypy__.builders <span class="hljs-keyword">import</span> StringBuilder
 
-  class FastO():
+<span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">FastO</span><span class="hljs-params">()</span>:</span>
 
-    sb = StringBuilder()
+  sb = StringBuilder()
 
-    @classmethod
-    def write(cls, *args, sep: str=' ', end: str='\n', flush: bool=False) -> None:
-      append = cls.sb.append
-      for i in range(len(args)-1):
-        append(str(args[i]))
-        append(sep)
-      if args:
-</code></pre>
+<span class="hljs-meta">  @classmethod</span>
+  <span class="hljs-function"><span class="hljs-keyword">def</span> <span class="hljs-title">write</span><span class="hljs-params">(cls, *args, sep: str=<span class="hljs-string">' '</span>, end: str=<span class="hljs-string">'\n'</span>, flush: bool=False)</span> -&gt; <span class="hljs-keyword">None</span>:</span>
+    append = cls.sb.append
+    <span class="hljs-keyword">for</span> i <span class="hljs-keyword">in</span> range(len(args)<span class="hljs-number">-1</span>):
+      append(str(args[i]))
+      append(sep)
+    <span class="hljs-keyword">if</span> args:
+
+</div></code></pre>
 
 </body>
 
