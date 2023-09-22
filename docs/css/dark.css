@@ -1,7 +1,3 @@
-body {
-  margin: 0 20px; /* 左右のマージンを設定 */
-}
-
 /* 共通のスタイル */
 body {
   font-family: Arial, sans-serif;
@@ -14,6 +10,9 @@ body {
   align-items: center; /* 垂直方向に中央に配置 */
 }
 
+body {
+  margin: 0 5%; /* 左右のマージンを設定 */
+}
 
 /* リンクのスタイル */
 a {
