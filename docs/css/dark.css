@@ -36,6 +36,6 @@ pre {
 /* スマートフォン用フォントサイズ */
 @media screen and (max-width: 767px) {
   body {
-    font-size: 16px; /* スマートフォン用のフォントサイズを設定 */
+    font-size: 64px; /* スマートフォン用のフォントサイズを設定 */
   }
 }
