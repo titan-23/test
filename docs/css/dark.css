@@ -30,4 +30,12 @@ pre {
   max-height: 30em;
   overflow-x: auto;
   font-family: Consolas;
+  font-size: 16px;
+}
+
+/* スマートフォン用フォントサイズ */
+@media screen and (max-width: 767px) {
+  body {
+    font-size: 16px; /* スマートフォン用のフォントサイズを設定 */
+  }
 }
