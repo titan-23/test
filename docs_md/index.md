@@ -33,6 +33,42 @@ class FastO():
       append(str(args[i]))
       append(sep)
     if args:
+      append(str(args[-1]))
+    append(end)
+    if flush:
+      cls.flush()
 
+  @classmethod
+  def flush(cls) -> None:
+    os.write(1, cls.sb.build().encode())
+    cls.sb = StringBuilder()
+
+write = FastO.write
+flush = FastO.flush
+
+import sys
+import math
+import random
+from bisect import bisect_right, bisect_left
+from itertools import product, permutations, combinations, combinations_with_replacement 
+from collections import deque, defaultdict, Counter
+from heapq import heapify, heappush, heappop
+from functools import lru_cache, reduce
+INF = float('inf')
+def error(*args, sep=' ', end='\n'):
+  print(*args, sep=sep, end=end, file=sys.stderr)
+
+# mod = 1000000007
+# mod = 998244353
+
+# dx = [-1, 0, 0, 1]
+# dy = [0, -1, 1, 0]
+
+# dx = [-1, -1, -1, 0, 0, 1, 1, 1]
+# dy = [-1, 0, 1, -1, 1, -1, 0, 1]
+
+sys.setrecursionlimit(7*10**5)
+input = lambda: sys.stdin.readline().rstrip()
+# input = lambda: sys.stdin.buffer.readline().rstrip()
 ```
 
