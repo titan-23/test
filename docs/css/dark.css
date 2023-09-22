@@ -27,7 +27,7 @@ a:hover {
 /* ダークモードのスタイル */
 @media (prefers-color-scheme: dark) {
   body {
-    background-color: #23282f; /* ダークモード時の背景色をダークグレーに設定 */
+    background-color: #1c2025; /* ダークモード時の背景色をダークグレーに設定 */
     color: #e6e6e6; /* ダークモード時のテキストカラーを白に設定 */
   }
   
@@ -38,9 +38,10 @@ a:hover {
   pre {
     padding: 1em; /* 内側の余白 */
     margin: 0 0 1.5em; /* 外側の余白 */
-    background: #555555; /* 背景色 */
+    background: #4a4a4a; /* 背景色 */
     white-space: pre;
-    overflow-x: scroll;
+    max-height: 30em;
+    overflow-x: auto;
     font-family: Consolas;
   }
 
