@@ -6,7 +6,6 @@ body {
   line-height: 1.5;
   margin: 0;
   padding: 0;
-  display: flex; /* フレックスコンテナとして要素を配置 */
   justify-content: center; /* 水平方向に中央に配置 */
   min-height: 100vh; /* ビューポートの高さいっぱいに表示 */
 }
