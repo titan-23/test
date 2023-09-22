@@ -37,7 +37,8 @@ a:hover {
 
   /* コードブロックのスタイル */
   code.python {
-    background-color: #283136d2; /* コードブロックの背景色を黄色に設定 */
+    /* background-color: #283136d2; コードブロックの背景色を黄色に設定 */
+    background-color: #49cb3dd2; /* コードブロックの背景色を黄色に設定 */
     padding: 5px; /* コードブロック内の余白を設定 */
     border-radius: 5px; /* 角丸を設定 */
   }
