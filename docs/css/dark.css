@@ -35,10 +35,10 @@ a:hover {
     color: #1098d1; /* ダークモード時のリンクのカラーを明るい青に設定 */
   }
 
-  pre.code {
+  pre {
     padding: 1em; /* 内側の余白 */
     margin: 0 0 1.5em; /* 外側の余白 */
-    background: #1cd88d; /* 背景色 */
+    background: #555555; /* 背景色 */
     white-space: pre;
     overflow-x: scroll;
     font-family: Consolas;
