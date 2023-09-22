@@ -7,7 +7,7 @@ body {
   justify-content: center; /* 水平方向に中央に配置 */
   align-items: center; /* 垂直方向に中央に配置 */
   margin: 0 5%; /* 左右のマージンを設定 */
-  font-size: 16px;
+  font-size: 15px;
 }
 
 /* リンクのスタイル */
@@ -28,5 +28,4 @@ pre {
   max-height: 30em;
   overflow-x: auto;
   font-family: Consolas;
-  font-size: 16px;
 }
