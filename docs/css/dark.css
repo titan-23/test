@@ -1,13 +1,5 @@
-/* ライトモードのデフォルトスタイル */
-body {
-  background-color: #ffffff;
-  color: #333333;
-}
-
 /* ダークモード時のスタイル */
 .dark-mode body {
   background-color: #333333;
   color: #ffffff;
 }
-
-/* その他のスタイリングルールを追加できます */
