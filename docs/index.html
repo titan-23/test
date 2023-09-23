@@ -38,11 +38,9 @@
         document.execCommand('copy');
         document.body.removeChild(dummy);
 
-        // コピーが完了したらボタン内にメッセージを表示
         var copyButton = document.getElementById('copyButton');
         copyButton.textContent = 'コピーしました';
 
-        // 2秒後にボタンのテキストを元に戻す
         setTimeout(function () {
             copyButton.textContent = 'コピー';
         }, 500);
