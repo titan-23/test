@@ -28,6 +28,7 @@ pre {
   max-height: 30em;
   overflow-x: auto;
   font-family: Consolas;
+  clear: both; /* フロート要素の下にコードブロックを配置 */
 }
 
 /* コピーボタンのスタイル */
@@ -42,5 +43,5 @@ pre {
 
 /* ホバー時のスタイル */
 #copyButton:hover {
-  background-color: #004896;
+  background-color: #004ea1;
 }
