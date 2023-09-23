@@ -27,7 +27,7 @@ pre {
   white-space: pre;
   max-height: 30em;
   overflow-x: auto;
-  font-family: Consolas;
+  font-family: Consolas, 'Courier New', Courier, Monaco, monospace;;
   clear: both; /* フロート要素の下にコードブロックを配置 */
 }
 
@@ -57,7 +57,6 @@ pre {
   font-size: 12px;
 }
 
-pre { line-height: 125%; }
 td.linenos .normal { color: inherit; background-color: transparent; padding-left: 5px; padding-right: 5px; }
 span.linenos { color: inherit; background-color: transparent; padding-left: 5px; padding-right: 5px; }
 td.linenos .special { color: #000000; background-color: #ffffc0; padding-left: 5px; padding-right: 5px; }
