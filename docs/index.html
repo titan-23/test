@@ -25,12 +25,12 @@
   
   <button id="copyButton">コピー</button>
   <script>
-    // コピーボタンがクリックされたときにテキストをクリップボードにコピーする関数
+    // コピーボタンのクリックイベントの処理
     document.getElementById('copyButton').addEventListener('click', function () {
-        // &lt;pre&gt; タグ内のテキストを取得
+        // <pre> タグ内のテキストを取得
         var textToCopy = document.querySelector('pre').innerText;
 
-        // テキストをクリップボードにコピーする
+        // テキストをクリップボードにコピー
         var dummy = document.createElement('textarea');
         document.body.appendChild(dummy);
         dummy.value = textToCopy;
@@ -38,8 +38,14 @@
         document.execCommand('copy');
         document.body.removeChild(dummy);
 
-        // コピーが完了したらアラートを表示
-        // alert('テキストがコピーされました: \n' + textToCopy);
+        // コピーが完了したらボタン内にメッセージを表示
+        var copyButton = document.getElementById('copyButton');
+        copyButton.textContent = 'コピーしました';
+
+        // 2秒後にボタンのテキストを元に戻す
+        setTimeout(function () {
+            copyButton.textContent = 'コピー';
+        }, 500);
     });
   </script>
 
