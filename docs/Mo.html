@@ -1,13 +1,14 @@
-<!DOCTYPE html>
-<html>
+<pre><code>&lt;!DOCTYPE html&gt;
+&lt;html&gt;
 
-<head>
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" type="text/css" href="css/dark.css">
-  <title>Library_py</title>
-</head>
+&lt;head&gt;
+  &lt;meta name="viewport" content="width=device-width, initial-scale=1"&gt;
+  &lt;link rel="stylesheet" type="text/css" href="css/dark.css"&gt;
+  &lt;title&gt;Library_py&lt;/title&gt;
+&lt;/head&gt;
 
-<body>
+&lt;body&gt;
+</code></pre>
 <hr />
 
 <h1><code>Mo</code></h1>
@@ -102,27 +103,30 @@
 
 <h2>仕様</h2>
 
-<h4><code>mo = Mo(n: int, q: int)</code></h4>
 <ul>
-<li>長さ <code>n</code> の列、クエリ数 <code>q</code> に対する <code>Mo's algorithm</code> です。</li>
+<li><code>mo = Mo(n: int, q: int)</code></li>
 </ul>
+<pre><code>- 長さ `n` の列、クエリ数 `q` に対する `Mo's algorithm` です。
+</code></pre>
 
-<h4><code>mo.add_query(l: int, r: int) -&gt; None</code></h4>
 <ul>
-<li>区間 <code>[l, r)</code> に対するクエリを追加します。</li>
+<li><code>mo.add_query(l: int, r: int) -&gt; None</code></li>
 </ul>
-<ul>
-<li><code>O(1)</code> です。</li>
-</ul>
+<pre><code>- 区間 `[l, r)` に対するクエリを追加します。
+</code></pre>
+<pre><code>- `O(1)` です。
+</code></pre>
 
-<h4><code>mo.run(add: Callable[[int], None], delete: Callable[[int], None], out: Callable[[int], None]) -&gt; None</code></h4>
 <ul>
-<li>実行します。</li>
+<li><code>mo.run(add: Callable[[int], None], delete: Callable[[int], None], out: Callable[[int], None]) -&gt; None</code></li>
 </ul>
+<pre><code>- 実行します。
+</code></pre>
 
-<h4><code>mo.runrun(add_left: Callable[[int], None], add_right: Callable[[int], None], delete_left: Callable[[int], None], delete_right: Callable[[int], None], out: Callable[[int], None]) -&gt; None</code></h4>
 <ul>
-<li>実行します。</li>
+<li><code>mo.runrun(add_left: Callable[[int], None], add_right: Callable[[int], None], delete_left: Callable[[int], None], delete_right: Callable[[int], None], out: Callable[[int], None]) -&gt; None</code></li>
 </ul>
+<pre><code>- 実行します。
+</code></pre>
 
 
