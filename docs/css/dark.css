@@ -32,14 +32,15 @@ pre {
 
 /* コピーボタンのスタイル */
 #copyButton {
-  padding: 10px 20px;
-  background-color: #007bff;
+  padding: 6px 40px;
+  background-color: #0078d4;
   color: #fff;
   border: none;
   cursor: pointer;
+  float: right;
 }
 
 /* ホバー時のスタイル */
 #copyButton:hover {
-  background-color: #0056b3;
+  background-color: #004896;
 }
