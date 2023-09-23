@@ -33,7 +33,7 @@ pre {
 
 /* コピーボタンのスタイル */
 #copyButton {
-  padding: 6px 40px;
+  padding: 6px 20px;
   background-color: #0078d4;
   color: #fff;
   border: none;
@@ -44,4 +44,15 @@ pre {
 /* ホバー時のスタイル */
 #copyButton:hover {
   background-color: #004ea1;
+}
+
+/* 行数表示のスタイル */
+.line-numbers {
+  position: absolute;
+  left: 0;
+  top: 0;
+  padding: 4px 8px;
+  background-color: #f0f0f0;
+  font-family: Consolas;
+  font-size: 12px;
 }
