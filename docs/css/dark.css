@@ -21,14 +21,9 @@ a:hover {
 }
 
 code {
-  padding: 1em; /* 内側の余白 */
-  margin: 0 0 1.5em; /* 外側の余白 */
   background: #4a4a4a; /* 背景色 */
   white-space: pre;
-  max-height: 30em;
-  overflow-x: auto;
   font-family: Consolas, 'Courier New', Courier, Monaco, monospace;;
-  clear: both; /* フロート要素の下にコードブロックを配置 */
 }
 
 pre {
